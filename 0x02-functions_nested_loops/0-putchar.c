@@ -1,21 +1,23 @@
 #include "main.h"
-#include <stdio.h>
+
+
 /**
- * main - entry block
- * @void: no argument
- * Return: 0
- **/
+ * main - Entry point
+ *
+ * Return: nothing, return void
+ */
+
 int main(void)
 {
-	char result[] = "_putchar";
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	int a;
-
-	for (a = 0; a < 8; a++)
-	{
-		_putchar(result[a]);
-	}
-	_putchar("\n");
-	return (0);
+return (0);
 }
-
