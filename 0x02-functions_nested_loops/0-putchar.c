@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 #include <stdio.h>
 /**
  * main - entry block
@@ -9,13 +9,13 @@ int main(void)
 {
 	char result[] = "_putchar";
 
-	int c;
+	int a;
 
-	for (c = 0; a < 8; c++)
+	for (a = 0; a < 8; a++)
 	{
 		_putchar(result[a]);
 	}
-	-putchar("\n");
+	_putchar("\n");
 	return (0);
 }
 
