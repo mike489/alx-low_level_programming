@@ -17,5 +17,3 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 		for (i = 0; i < size; i++)
 			action(array[i]);
 }
-© 2022 GitHub, Inc.
-Terms
