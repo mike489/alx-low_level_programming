@@ -136,7 +136,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 		return (NULL);
 
 	index = key_index((const unsigned char *)key, ht->size);
-[O	if (index >= ht->size)
+	if (index >= ht->size)
 		return (NULL);
 
 	node = ht->shead;
